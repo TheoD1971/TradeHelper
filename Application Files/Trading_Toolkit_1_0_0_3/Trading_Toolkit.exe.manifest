@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Trading_Toolkit.exe" version="1.0.0.3" publicKeyToken="878a30a720a64e20" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Trading_Toolkit" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Trading_Toolkit.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC-Manifestoptionen
+          Wenn Sie die Ebene der Windows-Benutzerkontensteuerung ändern möchten, ersetzen Sie den 
+          Knoten "requestedExecutionLevel" durch eine der folgenden Angaben.
+
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel level="highestAvailable" uiAccess="false" />
+
+         Wenn Sie Datei- und Registrierungsvirtualisierung für Abwärtskompatibilität 
+         verwenden möchten, löschen Sie den Knoten "requestedExecutionLevel".
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MaterialSkin.dll" size="587776">
+      <assemblyIdentity name="MaterialSkin" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>uYed8V6CxS6RZscfexd8V71MgomCGmWp0/Uiiz9ga04=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Data.SQLite.dll" size="345600">
+      <assemblyIdentity name="System.Data.SQLite" version="1.0.108.0" publicKeyToken="DB937BC2D44FF139" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>VLEF/4rXqsFJ5PQmFaN6Bj/sfOmz7dLNbN7B62xX4sA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Trading_Toolkit.exe" size="1402872">
+      <assemblyIdentity name="Trading_Toolkit" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>2iP3bDbioRVbzV5U/g8mHNmdk6BQBaZ9rQplAolBM6k=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="etc.JPG" size="25104">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>B3w7gdaXMqbnCq0w9XB8fQWT1hZ9Yra8jdoT4P9+W7E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ethereum-classic.jpg" size="124805">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>AD1P9ooohS0oTPW4o0x4Yph3+UxNIF0C43EOHeD+V4U=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="matrix-3109378_1920.jpg" size="1126862">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rpWb+o8ogNFAKCJywPMTm5iR3bcKRObbYNaQ5Z55E/U=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Trading_Toolkit.exe.config" size="188">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>c922zfRb5ORzqEo8SDjt8Mx8lDMhGTWhqKcK/oileDM=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-K5HVH6S\Theo Dick" issuerKeyHash="9f10807fb3a00b06a2816e9bf8aec861fc04ca31" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Hs3TE0qsQn2yVQ0lRB49DqspQCspK8/CUN6XaU0dHFs=</DigestValue></Reference></SignedInfo><SignatureValue>Zax41mlDsxlH3sUSlgtO9Tteus8KI3/J3J8MQueRq5Q+uKxLWoaL7FAkL4K7MlpOWJf3scJfMuQQTtQHPZ5u/fZXIImhtWl9QJXrfqCRfrAYTDWY+D1++UJIOSU/TKzTry5XVVX4rPl6R+1gtMoZGPuAjRroLqAVlkE9qsob7vg=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>19+NUnx3mYWWjXJ8CoAek0MAOY3vJliyFg6qC+SJBSoMfle1Cf6IPmASMzyAabzKNEZyIxknXf7c+fly/MQk+Fu87lDq6ybvovxAB77UKztaV/K1J3CrQA9ryhVHi7wa21HzmIo4oCPQ8i0KNVauDm5SH9zqJH+8OknkT0S0eH0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="5b1c1d4d6997de50c2cf2b292b4029ab0e3d1e44250d55b27d42ac4a13d3cd1e" Description="" Url=""><as:assemblyIdentity name="Trading_Toolkit.exe" version="1.0.0.3" publicKeyToken="878a30a720a64e20" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-K5HVH6S\Theo Dick</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>12lbUrmDBM2lRaL1T6/to9yVWFBpVJO/tzicYiZZcT8=</DigestValue></Reference></SignedInfo><SignatureValue>0bVEwVVkD9iOpYKj+/qP3PXfPKkfVmZyx2UMSOKklNtRa/DBTQETkpMKCmY97bbGWsUtcPQ0TNBlsmpBnYtVKE8izhvi/ek/0ZnQ/LPmz5A4CtEyqiiYYSkku0lsbY5XtKaWBDDr/CYX83/QCPRZTs1ZPXwOiv/aGBzKaHQypeE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>19+NUnx3mYWWjXJ8CoAek0MAOY3vJliyFg6qC+SJBSoMfle1Cf6IPmASMzyAabzKNEZyIxknXf7c+fly/MQk+Fu87lDq6ybvovxAB77UKztaV/K1J3CrQA9ryhVHi7wa21HzmIo4oCPQ8i0KNVauDm5SH9zqJH+8OknkT0S0eH0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB/TCCAWagAwIBAgIQeyyRQJ+ehrRHmFgOyYAMrjANBgkqhkiG9w0BAQsFADA9MTswOQYDVQQDHjIARABFAFMASwBUAE8AUAAtAEsANQBIAFYASAA2AFMAXABUAGgAZQBvACAARABpAGMAazAeFw0xODA0MDIxNDQ1MjVaFw0xOTA0MDIyMDQ1MjVaMD0xOzA5BgNVBAMeMgBEAEUAUwBLAFQATwBQAC0ASwA1AEgAVgBIADYAUwBcAFQAaABlAG8AIABEAGkAYwBrMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDX341SfHeZhZaNcnwKgB6TQwA5je8mWLIWDqoL5IkFKgx+V7UJ/og+YBIzPIBpvMo0RnIjGSdd/tz5+XL8xCT4W7zuUOrrJu+i/EAHvtQrO1pX8rUncKtAD2vKFUeLvBrbUfOYijigI9DyLQo1Vq4OblIf3Ookf7w6SeRPRLR4fQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBADVB8mN1OMe5EZrMDgSu8q1hz+ed7lUl0jJ5dhxYtKecEK5D4EnQqUNAHPyGnCnnQTV3ZA2wm9+ysN8+VZYsd6m0LIREt4R8cs/8fxJWA5+7VCyBh1myBwvfY8ASlBu9fW3CqwvuEZcy4kEUj1ApR5AG0RFMHY0hvk3+8IAsVg/E</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
